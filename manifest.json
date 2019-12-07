@@ -1,14 +1,14 @@
 {
     "manifest_version": 2,
     "name": "SteamAutoAuth",
-    "version": "0.1",
+    "version": "0.5",
     "content_scripts": [
         {
             "matches": [
                 "https://steamcommunity.com/login/*"
             ],
             "js": [
-                "src/content.js"
+                "dist/bundle.js"
             ]
         }
     ],
