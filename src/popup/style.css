@@ -1,0 +1,29 @@
+* {
+    margin: 0px auto;
+    padding: 5px;
+    margin: 3px;
+}
+
+body{
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    
+}
+
+button {
+    clear: left;
+}
+
+ul#usernames {
+    list-style-type: none; 
+    padding: 0;
+}
+
+li {
+    list-style-type: none; 
+    padding: 0;
+}
