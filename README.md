@@ -45,9 +45,3 @@ The extension works by checking if the username is in the `chrome.storage` and i
 # Help 
 
 If you have any queries or need help, contact me [here](https://steamcommunity.com/id/vrtgn). 
-
-# Donations
-[Donate to DrMcKay (Creator of `steam-totp`)](https://www.paypal.com/signin?forceLogin=false&returnUri=https%3A%2F%2Fwww.paypal.com%2Fdonate&state=%252F%253Ftoken%253DRphc0uE-ilTnGq4CWwFMFWj0eFvQPGGWv0XF6iu96h_z13NWWh4spZ7Rl_KAtpHuv0dK2G%2526fromUL%253Dtrue&intent=donate&ctxId=b997d1de82a642fd9a7f33a750dfac0a).
-
-
-
