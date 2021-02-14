@@ -1,0 +1,24 @@
+{
+  "name": "chrome-steamautoauth",
+  "version": "0.1.0",
+  "description": "A chrome web extension to automatically generate and enter mobile code on steam login.",
+  "scripts": {
+    "build": "browserify src/content.js -o dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabdu11ah/chrome-steamautoauth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabdu11ah/chrome-steamautoauth/issues"
+  },
+  "homepage": "https://github.com/mabdu11ah/chrome-steamautoauth#readme",
+  "dependencies": {
+    "steam-totp": "^2.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
