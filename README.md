@@ -2,7 +2,7 @@
 A chrome web extension to automatically generate and enter mobile code on steam login. 
 Powered by [`steam-totp`](https://github.com/DoctorMcKay/node-steam-totp/).
 
-**Note:** This will only work for users who use who have the You will need your **shared secret**!
+**Note:** This will only work for users who use who have their **shared secrets**!
 
 # Shared Secret
 
