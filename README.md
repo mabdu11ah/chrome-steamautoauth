@@ -18,7 +18,7 @@ To add an account, click the extension's icon in the chrome bar.
 
 Now when you enter the username in the Steam Login Username Input, the password and/or the code will automatically be input, as well as all the Sign In/Submit buttons being clicked.
 
-**Note: There is an intended delay before inputs are filled, this is to **
+**Note: There is an intended delay before the script kicks in, this is to ensure the username isn't changed in the input box.**
 
 If you want more details as to what exactly happens:
 
