@@ -3,6 +3,9 @@ A chrome web extension to ease logging into multiple steam accounts. Automatical
 
 As someone who has to constantly keep switching between many accounts in steam, it can take a lot of time. This extension is made with the hope that it can reduce that time significantly.
 
+## Preview
+![SteamAutoAuth User Interface](https://github.com/mabdu11ah/chrome-steamautoauth/blob/master/assets/preview.png?raw=true)
+
 ## Usage
 ### Installing the Extension In Chrome
 [Download](https://github.com/mabdu11ah/chrome-steamautoauth/archive/v0.1.1.zip) or clone the repository, then go to `chrome://extensions`.
