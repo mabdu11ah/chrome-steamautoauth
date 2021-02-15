@@ -1,5 +1,5 @@
 # SteamAutoAuth
-A chrome web extension to ease logging into steam multiple accounts. Automatically inputs password and enters mobile code on steam login. Powered by [`steam-totp`](https://github.com/DoctorMcKay/node-steam-totp/).
+A chrome web extension to ease logging into multiple steam accounts. Automatically inputs password and enters mobile code on steam login. Powered by [`steam-totp`](https://github.com/DoctorMcKay/node-steam-totp/).
 
 As someone who has to constantly keep switching between many accounts in steam, it can take a lot of time. This extension is made with the hope that it can reduce that time significantly.
 
