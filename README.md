@@ -5,7 +5,7 @@ As someone who has to constantly keep switching between many accounts in steam, 
 
 ## Usage
 ### Installing the Extension In Chrome
-[Download](https://github.com/mabdu11ah/chrome-steamautoauth/archive/v0.1.0.zip) or clone the repository, then go to `chrome://extensions`.
+[Download](https://github.com/mabdu11ah/chrome-steamautoauth/archive/v0.1.1.zip) or clone the repository, then go to `chrome://extensions`.
 
 Enable the developer mode, then click `Load Unpacked`. Select the repository's directory and hit select.
 

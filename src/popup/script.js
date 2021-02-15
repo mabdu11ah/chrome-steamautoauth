@@ -65,7 +65,7 @@ function renderUsernamesUI() {
     label.id = `${username}-li`;
     label.innerHTML = `
       <div>
-        ${username}
+        <strong>${username}</strong>
         <span id="${username}" class="delete" style="color: red; cursor: pointer;">Delete</span>
       </div>
     `;
