@@ -63,4 +63,4 @@ Credentials (password and/or shared secrets) are base64 encoded.
 
 ## Help 
 
-If you have any queries or need help, contact me [here](https://steamcommunity.com/id/vrtgn) or add me on discord mabdu11ah#6028.
+If you have any queries or need help, contact me [here](https://steamcommunity.com/id/vrtgn) or add me on discord, mabdu11ah#6028.
