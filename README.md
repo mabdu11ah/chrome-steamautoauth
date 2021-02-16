@@ -56,10 +56,17 @@ You will need either a **rooted** Android phone, an iPhone or [Steam Desktop Aut
 
 [Steam Desktop Authenticator](https://www.youtube.com/watch?v=JjdOJVSZ9Mo)
 
-
 ## Security
 All account details are kept in `chrome.storage.local` (i.e. your local device). Nothing is sent to a server.
 Credentials (password and/or shared secrets) are base64 encoded.
+
+## Building
+
+If you would like to build the extension yourself, ensure you have node and npm installed and execute this in the folder:
+
+```
+npm install && npm run build
+```
 
 ## Help 
 
