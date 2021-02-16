@@ -1,3 +1,5 @@
+/** im terrible at css :( */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
@@ -27,12 +29,13 @@ ul {
 
 li {
   list-style-type: none;
-  padding: 0;
+  padding: 10px 0;
 }
 
-li div {
+li div div.account-details {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
@@ -82,4 +85,38 @@ button {
 button:hover {
   transition: 0.2s ease-in-out;
   transform: translateY(-3px);
+}
+
+.account-details h3 {
+  margin: 0;
+}
+
+.account-codes {
+  padding: 0;
+}
+
+.code {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.code-timer-wrapper {
+  height: 10px;
+  background: lightgray;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.code-timer {
+  height: 100%;
+  border-radius: 8px;
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+  width: 79%;
+}
+
+.account {
+  margin-bottom: 16px;
 }

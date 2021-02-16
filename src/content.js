@@ -53,6 +53,7 @@ function getUserData(username, callback) {
     } catch {}
 
     try {
+      if (!data.secret) throw new Error();
       var secret = atob(data.secret);
       var code = SteamTotp.generateAuthCode(secret);
     } catch {
