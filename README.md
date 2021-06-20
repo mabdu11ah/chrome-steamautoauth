@@ -70,4 +70,4 @@ npm install && npm run build
 
 ## Help 
 
-If you have any queries or need help, contact me [here](https://steamcommunity.com/id/vrtgn) or add me on discord, mabdu11ah#6028.
+If you have any queries or need help, make an issue [here](https://github.com/mabdu11ah/chrome-steamautoauth/issues).
