@@ -62,4 +62,4 @@ Credentials (password and/or shared secrets) are base64 encoded.
 
 ## Help 
 
-If you have any queries or need help, please create an issue.
+If you have any queries or need help, make an issue [here](https://github.com/mabdu11ah/chrome-steamautoauth/issues).
