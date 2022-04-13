@@ -180,9 +180,9 @@ function base64ToHex(b64) {
   return result;
 }
 
-function generateAuthCode(shared) {
+function generateAuthCode(shared, timeOffset = 0) {
   const secret = base64ToHex(shared);
-  const time = Math.floor(Date.now() / 1000);
+  const time = Math.floor(Date.now() / 1000) + timeOffset;
 
   let buffer = '00000000';
   let timeRadixed = Math.floor(time / 30).toString(16);
