@@ -1,5 +1,3 @@
-const SteamTotp = require('steam-totp');
-
 var usernames = [];
 
 var _secrets = {};
@@ -150,7 +148,7 @@ function codeGenerator() {
 
     _timers[username] += 1;
 
-    const code = SteamTotp.generateAuthCode(atob(_secrets[username]));
+    const code = generateAuthCode(atob(_secrets[username]));
     const changed = codeElement.textContent != code;
     if (changed) _timers[username] = 0;
     const width = changed ? '100%' : `${parseInt(((30 - _timers[username]) / 30) * 100)}%`;

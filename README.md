@@ -1,13 +1,13 @@
 # SteamAutoAuth
-A chrome web extension to ease logging into multiple steam accounts. Automatically inputs password and enters mobile code on steam login. Powered by [`steam-totp`](https://github.com/DoctorMcKay/node-steam-totp/).
+A chrome web extension to ease logging into multiple steam accounts. Automatically inputs password and enters mobile code on steam login.
 
 As someone who has to constantly keep switching between many accounts in steam, it can take a lot of time. This extension is made with the hope that it can reduce that time significantly.
 
-![SteamAutoAuth User Interface](https://github.com/mabdu11ah/chrome-steamautoauth/blob/master/assets/preview-0.2.0.png?raw=true)
+![SteamAutoAuth User Interface](https://github.com/mabdu11ah/chrome-steamautoauth/blob/master/assets/preview-0.3.0.png?raw=true)
 
 ## Usage
 ### Installing the Extension In Chrome
-[Download](https://github.com/mabdu11ah/chrome-steamautoauth/archive/0.2.0.zip) or clone the repository, then go to `chrome://extensions`.
+[Download](https://github.com/mabdu11ah/chrome-steamautoauth/archive/0.3.0.zip) or clone the repository, then go to `chrome://extensions`.
 
 Enable the developer mode, then click `Load Unpacked`. Select the repository's directory and hit select.
 
@@ -59,14 +59,6 @@ You will need either a **rooted** Android phone, an iPhone or [Steam Desktop Aut
 ## Security
 All account details are kept in `chrome.storage.local` (i.e. your local device). Nothing is sent to a server.
 Credentials (password and/or shared secrets) are base64 encoded.
-
-## Building Manually
-
-Although the built files are included in this repository, if you would like to build the extension yourself, ensure you have node and npm installed and execute this command in the folder:
-
-```
-npm install && npm run build
-```
 
 ## Help 
 

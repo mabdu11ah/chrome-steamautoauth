@@ -1,6 +1,3 @@
-// modules
-const SteamTotp = require('steam-totp');
-
 // timeout
 var timeout = null;
 
@@ -55,7 +52,7 @@ function getUserData(username, callback) {
     try {
       if (!data.secret) throw new Error();
       var secret = atob(data.secret);
-      var code = SteamTotp.generateAuthCode(secret);
+      var code = generateAuthCode(secret);
     } catch {
       var code = '';
     }
