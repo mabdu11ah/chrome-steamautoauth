@@ -1,16 +1,17 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "SteamAutoAuth",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "content_scripts": [
     {
       "matches": ["https://steamcommunity.com/login/*", "https://store.steampowered.com/login/*", "https://steamcommunity.com/openid/login*"],
-      "js": ["dist/bundle.js"]
+      "exclude_matches": ["https://steamcommunity.com/login/logout/"],
+      "js": ["src/shared/totp.js", "src/content/content.js"]
     }
   ],
   "permissions": ["storage", "activeTab", "tabs"],
-  "browser_action": {
+  "action": {
     "default_title": "Set usernames and secrets.",
-    "default_popup": "src/popup/popup.html"
+    "default_popup": "src/popup.html"
   }
 }
