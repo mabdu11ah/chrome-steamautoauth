@@ -4,9 +4,9 @@ A chrome web extension to ease logging into multiple steam accounts.
 
 ## Features
 
-- Add steam accounts to extension
-- Auto login into accounts
-- Get code generated for mobile authenticator
+- Easily manage multiple Steam accounts within the extension
+- Automatically log in to accounts
+- Instantly generate Steam Guard mobile authenticator codes
 
 <img src="./public/banner.png">
 
